@@ -10,12 +10,14 @@ I successfully developed a multi-page website focusing on the great outdoors, fe
 ![2](https://github.com/MrRobut98/CapstoneTwo_EnjoyTheOutdoors/assets/146864064/773e795a-4d48-4398-aa71-f1e8570bc666)
 
 
+![3](https://github.com/MrRobut98/CapstoneTwo_EnjoyTheOutdoors/assets/146864064/ebfcd50c-7af3-4507-bf13-e4ee0743f499)
+
+
 Parks Page - Dropdowns and Dynamic Content:
 Implemented select tags for states and types with corresponding IDs for dynamic JavaScript manipulation.
 Utilized arrays to dynamically populate the dropdowns with states and park types.
 Created functions to filter national parks based on selected states and types, providing users with relevant information.
 
-![3](https://github.com/MrRobut98/CapstoneTwo_EnjoyTheOutdoors/assets/146864064/ebfcd50c-7af3-4507-bf13-e4ee0743f499)
 
 
 ![4](https://github.com/MrRobut98/CapstoneTwo_EnjoyTheOutdoors/assets/146864064/216d242f-972b-4337-a84c-1873384ae3d5)
