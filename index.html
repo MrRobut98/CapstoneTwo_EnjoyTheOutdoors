@@ -1,84 +1,213 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
-    <link href="parks.html"/>
-    <link href="mountains.html"/>
-    <link rel="stylesheet" href="./index.css"/>  
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link href="parks.html" />
+    <link href="mountains.html" />
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">1ST RESORT</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="parks.html">Parks</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="mountains.html">Mountains</a>
-              </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Grrrr8 Outdoors</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="parks.html"
+                >Parks</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mountains.html">Mountains</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://images.pexels.com/photos/361104/pexels-photo-361104.jpeg?cs=srgb&dl=pexels-albert-white-361104.jpg&fm=jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption">
+            <h1>Enjoy The Great Outdoors!</h1>
+            <p>
+              Browse our website for a vast index of parks and mountains in the
+              US
+            </p>
           </div>
         </div>
-      </nav>
-
-    <div id="#myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-    
-        <div class="carousel-inner">
-            <div class="carousel-item active" >
-            <div class="overlay-image" 
-            style="background-image: url(https://images.pexels.com/photos/361104/pexels-photo-361104.jpeg?cs=srgb&dl=pexels-albert-white-361104.jpg&fm=jpg);"></div>
-              <div class="container">
-                  <h1>Example Headline</h1>
-                  <p>Your journey is one click away</p>
-                  <a href="#" class="btn btn-lg btn-primary">Sign up today</a>
-                </div>
-            </div>
-
-            <div class="carousel-item">
-                <div class="container">
-                    <h1>Example </h1>
-                    <p>Your journey is one click away</p>
-                    <a href="#" class="btn btn-lg btn-primary">Sign up today</a>
-                </div>
-
-            </div>
-            <div class="carousel-item">
-                <div class="container">
-                    <h1>Example Headline</h1>
-                    <p>Your journey is one click away</p>
-                    <a href="#" class="btn btn-lg btn-primary">Sign up today</a>
-                </div>
-            </div>
-         </div>
-         <a href="#myCarousel" class="carousel-control-prev" role="button" data-slide="prev">
-          <span class="sr-only">Previous</span>
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      </a>
-      <a href="#myCarousel" class="carousel-control-next" role="button" data-slide="next">
-          <span class="sr-only">Next</span>
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      </a>
-      
+        <div class="carousel-item">
+          <img
+            src="https://rare-gallery.com/uploads/posts/527939-high-res-mountain.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption2">
+            <a href="parks.html" class="btn btn-lg btn-dark">Search Parks</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://cdn.pixabay.com/photo/2017/02/01/22/02/mountain-landscape-2031539_1280.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption3"></div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-  
-      
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <header>
+      <h1>Welcome to Grrrreat Outdoors: Explore Nature's Wonders!</h1>
+      <p>
+        Embark on a thrilling journey into the heart of nature, where majestic
+        mountains and serene parks await your exploration.
+      </p>
+    </header>
+
+    <section>
+      <h2>Our Mission</h2>
+      <p>
+        Inspire a love for the great outdoors, fostering a connection between
+        individuals and the stunning landscapes that define our planet.
+      </p>
+    </section>
+
+    <section>
+      <h2>Explore Majestic Mountains</h2>
+      <p>
+        Traverse the rugged terrain of our featured mountains. From iconic peaks
+        to hidden gems, uncover breathtaking views, thrilling trails, and unique
+        ecosystems.
+      </p>
+    </section>
+
+    <section>
+      <h2>Discover Tranquil Parks</h2>
+      <p>
+        Escape the hustle and bustle by delving into the tranquility of our
+        showcased parks. Learn about the flora and fauna, and find your perfect
+        spot for relaxation and rejuvenation.
+      </p>
+    </section>
+
+    <section>
+      <h2>Plan Your Next Adventure</h2>
+      <p>
+        Equip yourself with tools to plan your next outdoor escapade. Detailed
+        trail guides, travel tips, and insider recommendations for a memorable
+        journey.
+      </p>
+    </section>
+
+    <section>
+      <h2>Community and Connection</h2>
+      <p>
+        Join a community of like-minded individuals who share a passion for
+        nature. Celebrate the spirit of adventure and joy of immersing ourselves
+        in the great outdoors.
+      </p>
+    </section>
+
+    <section>
+      <h2>Start Your Journey</h2>
+      <p>
+        Ready to embark on a Grrrreat adventure? Explore curated content, engage
+        with our community, and let the call of the wild guide you.
+      </p>
+      <p>Begin your exploration with Grrrreat Outdoors today!</p>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p>&copy; 2023 GrrrreatOutdoors.LLC All rights reserved.</p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a>
+            <a href="parks.html">Parks</a> |
+            <a href="mountains.html">Mountains</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>
+              Follow us on: <a href="#">Facebook</a> | <a href="#">Twitter</a> |
+              <a href="#">Instagram</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
 
-
-<!-- "https://images.pexels.com/photos/361104/pexels-photo-361104.jpeg?cs=srgb&dl=pexels-albert-white-361104.jpg&fm=jpg" -->

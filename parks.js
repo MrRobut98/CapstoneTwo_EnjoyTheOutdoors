@@ -5901,11 +5901,7 @@ window.onload = function () {
   }
 
   locationSelectEl.onchange = function () {
-    // if (locationSelectEl === length) {
-      
-    // } else {
-      
-    // }
+   
     parksPlaceholderEl.innerHTML="";
     let locationSelectVal = locationSelectEl.value;
     let matchingLocation = nationalParksArray.filter((park) => {
@@ -5941,43 +5937,3 @@ window.onload = function () {
   };
 };
 
- // let = nationalParksArray.filter((park)=>{
-      //   return park.LocationName.toLowerCase().includes(typeSelectVal.toLowerCase());
-      // });
-
-// repeat same process for types
-// in event handler .onchange console log the selected option
-// reset and append children to parks div place holder
-
-// function populateStatesDropdown() {
-//   nationalParksArray.forEach((park) => {
-//     let state = park.State;
-//     if (typeSelectEl.querySelector(`option[value="${state}"]`)) {
-//       let option = document.createElement("option");
-//       option.value = state;
-//       option.text = state;
-//       typeSelectEl.appendChild(option);
-//     }
-//   });
-// }
-
-// function populateParksDropdown(selectedState) {
-//   parksEl.innerHTML = "";
-//   parksEl.style.display = "none";
-//   nationalParksArray.forEach((park) => {
-//     if (park.State === selectedState) {
-//       let option = document.createElement("option");
-//       option.value = park.LocationID;
-//       option.text = park.LocationName;
-//       parksEl.appendChild(option);
-//     }
-//   });
-//   parksEl.style.display = selectedState ? "block" : "none";
-// }
-
-// populateStatesDropdown();
-
-// typeSelectEl.addEventListener("change", () => {
-//   let selectedState = statesEl.value;
-//   populateParksDropdown(selectedState);
-// });
