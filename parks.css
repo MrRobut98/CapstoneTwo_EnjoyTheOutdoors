@@ -1,0 +1,36 @@
+.wrapper {
+   
+    width: 1000px;
+    border: 2px solid rgba(255,255,255, .2);
+    box-shadow: 0 0 10px rgba(0,0,0, .2);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    padding: 40px 35px 55px;
+    margin: 0 10px;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("https://images.pexels.com/photos/533881/pexels-photo-533881.jpeg?cs=srgb&dl=pexels-pixabay-533881.jpg&fm=jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.wrapper p {
+    font-style: rgb(39, 84, 49);
+}
